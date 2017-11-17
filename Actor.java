@@ -1,17 +1,12 @@
 //I like pie. (also PI)
-
 //This class definition tells java that you can compare actors to
-
 //other actors.   
 
-public abstract class Actor implements Comparable<Actor>{
+pblc astract class Actor implements Comparable<Actor>{
 
     //implements Comparable<Actor> requires you make a method
-
     //   int compareTo (Actor o)
-
     //in order to be compliant with the Comparable interface
-
     //this method will compare actors by name
 
     public int compareTo(Actor other){
