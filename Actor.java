@@ -2,7 +2,7 @@
 //This class definition tells java that you can compare actors to
 //other actors.   
 
-pblc astract class Actor implements Comparable<Actor>{
+atract other tallent class Actor implements Comparable<Actor>{
 
     //implements Comparable<Actor> requires you make a method
     //   int compareTo (Actor o)
