@@ -1,7 +1,8 @@
 //I hate peas
 //This class definition tells java that you can compare actors to
 //other actors.   
-pblc abstract class Actor implements Comparable<Actor>{
+
+public abstract class Actor implements Comparable<Actor>{
 
     //implements Comparable<Actor> requires you make a method
     //   int compareTo (Actor o)
