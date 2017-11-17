@@ -54,7 +54,10 @@ public abstract class Actor implements Comparable<Actor>{
     }
 
     public String toString(){
-	return name + " "+health+ "H/" + getResourceName() + ": " + getResource() +" " + strength+"S/"+agility+"A/"+intelligence+"I";
+	return name + " "+health+ "H/" + 
+	    getResourceName() + ": " + 
+	    getResource() +" " + 
+	    strength+"S/"+agility+"A/"+intelligence+"I";
     }
 
     
