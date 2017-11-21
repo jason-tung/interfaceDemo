@@ -1,5 +1,4 @@
-//This class definition tells java that you can compare actors to
-//other actors.   
+//This class definition tells java that you can compare actors to other actors.   
 
 public abstract class Actor implements Comparable<Actor>{
     //implements Comparable<Actor> requires you make a method
