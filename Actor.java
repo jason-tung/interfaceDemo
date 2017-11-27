@@ -7,13 +7,14 @@ public abstract class Actor implements Comparable<Actor>{
     //this method will compare actors by name
 
     public int compareTo(Actor other){
-	return 0;
+        
 	//Try 0-3 and compile and run Demo3 after each one. 
 	//If it works comment out the return statement
 	//then do the next.
 	//0. Modify compareTo so that sorting your Actors will 
 	//   sort by name, just use the String compareTo in the names.
 	//
+	return this.name.compareTo(other.name);
 	//1. Modify compareTo so that sorting your Actors will 
 	//   sort lowest HP to Highest HP. Then test the driver
 	//
